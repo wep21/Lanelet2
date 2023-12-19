@@ -1,0 +1,4 @@
+module(name = "lanelet2")
+
+bazel_dep(name = "boost.asio", version = "1.83.0.bzl.3")
+bazel_dep(name = "eigen", version = "3.4.0")

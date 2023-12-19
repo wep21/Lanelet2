@@ -1,0 +1,8 @@
+cc_library(
+    name = "lanelet2_core",
+    srcs = glob(["src/*.cpp"]),
+    hdrs = glob(["include/lanelet2_core/**/*.h"]),
+    includes = ["include"],
+    deps = ["@eigen//:eigen"],
+    visibility = ["//visibility:public"],
+)
